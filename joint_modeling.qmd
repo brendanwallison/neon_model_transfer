@@ -1,0 +1,62 @@
+---
+title: "Joint Modeling of error across datasets: NEON and FIA"
+author: "Brendan, Olufemi & Jeff"
+format: html
+editor: visual
+---
+
+Increasing number of models and forecasts, how do we transport them to different contexts?
+
+Transferrability of models and data across studies and regions. 
+
+* Local field studies
+* Adaptive management
+
+Different gaps:
+FIA:
+
+* back in time
+* Lower frequency
+* Less variety of data (flux, beetles, etc)
+---
+
+NEON:
+
+* High sampling density in space and time
+* Diverse products (structure, massive standardized sampling efforts)
+* Not good spatial representation of the ecoregion it represents
+
+## Objectives 
+
+Take an existing model, for one ---, suppose FIA.  How can we leverage strengths of the second data to get greater statistical power for both, within your region, and time, and field of interest (biomass)?
+
+## NEON vs FIA error
+(Xmind diagram)
+Designed in an expansive wav: 
+Within an ecoregion, partial pooling isn't required
+Example, within alabama, but you would need to reconcile NEON to FIA
+* multiple 
+But across multiple ecoregions: Say Alabama, Georiga and Florida or Three ecoregions, we can have three sets of parameters. 
+
+## Sampling
+NEON is clustered around site
+FIA is across whole region
+
+## Ecoregion
+By partitioning variance down levels of the hierarchy, it allows us to cpature differences such as the differences of NEON within ecoregion and FIA within ecoregion.
+For a given ecoregion, with 
+Our model will account for this by having different levels.
+
+
+##  Github and Project
+
+We will share our files with NEON github. 
+Our github has
+
+1. FIA Data Cleaning
+2. NEON Data Cleaning 
+3. 
+
+## Future:
+* Add covariates: Bioclimatic variables ($\tt{worldclim - bioclim}$) 
+* Calculate biomass for each plot: $\tt{AlloDB} - \tt{neonPlants}$
